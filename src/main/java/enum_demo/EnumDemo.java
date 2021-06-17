@@ -2,9 +2,9 @@ package enum_demo;
 
 public class EnumDemo {
     public enum EventType {
-        INVITE_SHARE
+        shareToWechat
     }
     public static void main(String[] args) {
-        System.out.println(EventType.INVITE_SHARE.name()); // INVITE_SHARE
+        System.out.println(EventType.shareToWechat.name()); // shareToWechat
     }
 }
